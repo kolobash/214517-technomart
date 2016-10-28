@@ -7,28 +7,26 @@
   <body>
   	<header class="main-header">
   		<div class="top-line">
-  			<div class="top-line-inner">
+  			<div class="container">
   				<div class="logo">
   					<a href="#">Техномарт</a>
   				</div>
   				<div class="search">
   				<form action="#" method="get">
-  					<input type="search">
+  					<input class="search-field" type="search">
   					<button class="btn-search" type="submit"></button>
   				</form>
   				</div>
   				<div class="order-block">
-  					<a href="#">Закладки</a>
-  					<a href="#">Корзина</a>
+  					<a href="#">Закладки: <span></span></a>
+  					<a href="#">Корзина" <span></span></a>
   					<a href="#">Оформить заказ</a>
   				</div>
   			</div>
   		</div>
   		<div class="bottom-line">
-  			<div class="bottom-line-inner">
-  				<div class="info">
-  					<p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
-  				</div>
+  			<div class="container">
+  				<p class="info">Интернет-магазин строительных материалов и инструментов для ремонта</p>
   				<div class="contacts">
   				 	<div class="phone">
   					 	<span>+7(812)555-05-55</span>
@@ -67,9 +65,9 @@
   			</ul>
   		</nav>
   	</header>
-  	<main class="content">
+  	<main class="main-content">
   		<section class="profit">
-  			<div class="profit-container">
+  			<div class="container">
   				<div class="promo material">
   					<h2>Материалы</h2>
   					<a href="#">На любой вкус</a>
@@ -98,8 +96,8 @@
   						</div>
   						<div class="slide">
   							<img src="#" alt="">
-  							<h2>ПЕРФОРАТОРЫ</h2>
-  							<p>Настоящие мужские игрушки</p>
+  							<h2>Дрели</h2>
+  							<p>Соседям на радость</p>
   							<a href="#">Открыть каталог</a>
   						</div>
   					</div>
@@ -114,8 +112,8 @@
   				</div>
   			</div>
   		</section>
-  		<section class="popular-items">
-  			<header class="popular-items-header">
+  		<section class="popular">
+  			<header class="popular-header">
   				<h2>Популярные товары</h2>
   				<a href="#">Все популярные товары</a>
   			</header>
@@ -169,52 +167,52 @@
   				</article>
   			</div>
   		</section>
-  		<section class="popular-producers">
-  			<header class="popular-producers-header">
+  		<section class="popular">
+  			<header class="popular-header">
   				<h2>Популярные производители</h2>
   				<a href="#">Все производители</a>
   			</header>
   			<div class="producer-cards">
+  				<div class="producer-name">
+  					<a href="#">
+  						<img src="#" alt="">
+  					</a>
+  				</div>
+  				<div class="producer-name">
+  					<a href="#">
+  						<img src="#" alt="">
+  					</a>
+  				</div>
   				<article class="producer-name">
   					<a href="#">
   						<img src="#" alt="">
   					</a>
-  				</article>
-  				<article class="producer-name">
+  				</div>
+  				<div class="producer-name">
   					<a href="#">
   						<img src="#" alt="">
   					</a>
-  				</article>
-  				<article class="producer-name">
+  				</div>
+  				<div class="producer-name">
   					<a href="#">
   						<img src="#" alt="">
   					</a>
-  				</article>
-  				<article class="producer-name">
+  				</div>
+  				<div class="producer-name">
   					<a href="#">
   						<img src="#" alt="">
   					</a>
-  				</article>
-  				<article class="producer-name">
+  				</div>
+  				<div class="producer-name">
   					<a href="#">
   						<img src="#" alt="">
   					</a>
-  				</article>
-  				<article class="producer-name">
+  				</div>
+  				<div class="producer-name">
   					<a href="#">
   						<img src="#" alt="">
   					</a>
-  				</article>
-  				<article class="producer-name">
-  					<a href="#">
-  						<img src="#" alt="">
-  					</a>
-  				</article>
-  				<article class="producer-name">
-  					<a href="#">
-  						<img src="#" alt="">
-  					</a>
-  				</article>
+  				</div>
   			</div>
   		</section>
   		<section class="service">
@@ -238,9 +236,24 @@
   					</ul>
   				</div>
   				<div class="service-description">
-  					<h2>Доставка</h2>
-  					<p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду бесплатно!<br>
+ 						<div class="delivery">
+  						<h2>Доставка</h2>
+  						<p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду бесплатно!<br>
   					   Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+						</div>
+						<div class="guarantee">
+  						<h2>Гарантия</h2>
+  						<p>Если купленный у нас товар поломается или заискрит,<br>
+  							 а также в случае пожара, спровоцированного его возгоранием<br>
+  							 вы всегда можете быть уверены в нашей гарантии. Мы обменяем<br>
+  							 сгоревший товар на новый<br>
+  							 Дом уж восстановите как-нибудь сами.</p>
+						</div>
+						<div class="credit">
+  						<h2>Кредит</h2>
+  						<p>Залезть в долговую яму стало проще!<br>
+  					     Кредитные консультанты придут вам на помощь</p>
+						</div>
   				</div>
   			</div>
   		</section>
@@ -279,61 +292,57 @@
   	</main>
   	<footer class="main-footer">
   		<div class="top-footer">
-  			<div class="top-footer-inner">
+  			<div class="container">
   				<div class="footer-logo">
   					<a href="#">ТЕХНОМАРТ</a>
   				</div>
-  				<div class="support-nav">
-  					<nav>
-  						<ul>
-  							<li>
-  								<a href="#">Компания</a>
-  							</li>
-  							<li>
-  								<a href="#">Новости</a>
-  							</li>
-  							<li>
-  								<a href="#">Каталог</a>
-  							</li>
-  							<li>
-  								<a href="#">Доставка</a>
-  							</li>
-  							<li>
-  								<a href="#">Контакты</a>
-  							</li>
-  						</ul>
-  					</nav>
-  				</div>
+  				<nav class="support-nav">
+  					<ul>
+  						<li>
+  							<a href="#">Компания</a>
+  						</li>
+  						<li>
+  							<a href="#">Новости</a>
+  						</li>
+  						<li>
+  							<a href="#">Каталог</a>
+  						</li>
+  						<li>
+  							<a href="#">Доставка</a>
+  						</li>
+  						<li>
+  							<a href="#">Контакты</a>
+  						</li>
+  					</ul>
+  				</nav>	
   			</div>
   		</div>
   		<div class="middle-footer">
-  			<div class="middle-footer-inner">
+  			<div class="container">
   				<div class="footer-adress">
   					г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
   					+7 (812)555-05-55
   				</div>
-  				<div class="secondary-nav">
-  					<nav>
-  						<ul>
-  							<li>
-  								<a href="#">Материалы</a>
-  							</li>
-  							<li>
-  								<a href="#">Техника</a>
-  							</li>
-  							<li>
-  								<a href="#">Инструмент</a>
-  							</li>
-  							<li>
-  								<a href="#">Спецпредложение</a>
-  							</li>
-  						</ul>
-  					</nav>
-  				</div>
+  				<nav class="secondary-nav">
+  					<ul>
+  						<li>
+  							<a href="#">Материалы</a>
+  						</li>
+  						<li>
+  							<a href="#">Техника</a>
+  						</li>
+  						<li>
+  							<a href="#">Инструмент</a>
+  						</li>
+  						<li>
+  							<a href="#">Спецпредложение</a>
+  						</li>
+  					</ul>
+  				</nav>
   			</div>
   		</div>
   		<div class="bottom-footer">
-  			<div class="bottom-footer-inner">
+  			<div class="container">
   				<div class="copyright">
   					2010-2016 Компания "Техномарт"
   					Все права защищены
