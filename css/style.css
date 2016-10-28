@@ -1,0 +1,19 @@
+body {
+	font-size: 16px;
+	color: black;
+	font-weight: normal;
+	font-family: Cumprum, "Times New Roman", sans-serif;
+}
+
+h1 {
+	font-size:14px;
+	color: black;
+	font-weight: normal;
+	font-family: "PT Sans", sans-serif;
+}
+
+h2 {
+	font-size: 12px;
+	font-family: "PT Sans", sans-serif ;
+	font-weight: normal;
+}
