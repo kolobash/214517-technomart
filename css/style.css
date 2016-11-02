@@ -1,19 +1,282 @@
+html,
 body {
-	font-size: 16px;
-	color: black;
-	font-weight: normal;
-	font-family: "Cumprum", "Times New Roman", sans-serif;
+	min-width: 1200px;
+	padding: 0;
+	margin: 0;
 }
 
-h1 {
-	font-size:14px;
-	color: black;
-	font-weight: normal;
-	font-family: "PT Sans", sans-serif;
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
-h2 {
-	font-size: 12px;
-	font-family: "PT Sans", sans-serif ;
-	font-weight: normal;
+/*HEADER*/
+
+.container {
+	width: 940px;
+	padding: 0 10px;
+	margin: 0 auto;
 }
+
+.logo {
+	float: left;
+	width: 220px;
+}
+
+.search {
+	float: left;
+	width: 240px;
+}
+
+.order-block {
+	float: right;
+	width: 460px;
+}
+
+.info {
+	float: left;
+	width: 300px;
+}
+
+.contacts {
+	float: left;
+	width: 310px;
+}
+
+.user-block {
+	float: right;
+	width: 300px;
+}
+
+.bottom-line {
+	padding-top: 45px;
+}
+
+.main-nav {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.main-nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.main-nav li {
+	display: inline-block;
+}
+
+.main-header {
+	margin-bottom: 60px;
+}
+
+/*MAIN*/
+
+.profit {
+	margin-bottom: 55px;
+}
+
+.promo{
+	display: inline-block;
+}
+
+.popular-header {
+	width: 940px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.item-cards {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.item {
+	display: inline-block;
+}
+
+.producer-cards {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.producer-name {
+	display: inline-block;
+}
+
+.service {
+	margin-top: 85px;
+	margin-bottom: 80px;
+}
+
+.service-header {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.service-name {
+	float: left;
+	width: 240px;
+}
+
+.service-description {
+	float: right;
+	width: 630px;
+}
+
+.about-us {
+	float: left;
+	width: 540px;
+}
+
+.about-contacts {
+	float: right;
+	width: 310px;
+}
+
+.about {
+	margin-bottom: 85px;
+}
+
+/*MAIN-CATALOG*/
+
+.bread-crumbs {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.bread-crumbs li {
+	display: inline-block;
+}
+
+.filter {
+	float: left;
+	width: 220px;
+}
+
+.catalog{
+	float: right;
+	width: 700px;
+}
+
+.sorting {
+	margin-bottom: 20px;
+}
+
+.perfo-info {
+	margin-top: 60px;
+}
+
+/*footer*/
+
+.footer-logo {
+	float: left;
+	width: 220px;
+}
+
+.support-nav {
+	float: right;
+	width: 620px;
+}
+
+.support-nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.support-nav li {
+	display: inline-block;
+}
+
+.middle-footer {
+	padding-top: 35px;
+	padding-bottom: 50px;
+}
+
+.footer-adress {
+	float: left;
+	width: 380px;
+}
+
+.secondary-nav {
+	float: right;
+	width: 540px;
+}
+
+.secondary-nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.secondary-nav li {
+	display: inline-block;
+}
+
+.copyright {
+	float: left;
+	width: 240px;
+	margin-right: 140px;
+}
+
+.social {
+	float: left;
+	width: 160px;
+}
+
+.feedback {
+	float: right;
+	width: 140px;
+}
+
+.create {
+	float: right;
+	width: 140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
