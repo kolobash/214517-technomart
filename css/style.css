@@ -62,11 +62,13 @@ body {
 	padding: 0;
 	margin: 0;
 	list-style: none;
+	font-size: 0;
 	text-align: center;
 }
 
 .main-nav li {
 	display: inline-block;
+	font-size: 16px;
 }
 
 .main-header {
@@ -137,6 +139,10 @@ body {
 	font-size: 16px;
 }
 
+.item-cards .item:nth-child(4n) {
+	margin-right: 0;
+}
+
 .producer-cards {
 	width: 940px;
 	margin: 0 auto;
@@ -203,10 +209,12 @@ body {
 	padding: 0;
 	margin: 0;
 	list-style: none;
+	font-size: 0;
 }
 
 .bread-crumbs li {
 	display: inline-block;
+	font-size: 16px;
 }
 
 .filter {
@@ -221,6 +229,19 @@ body {
 
 .sorting {
 	margin-bottom: 20px;
+}
+
+.arrow-choise {
+	float: right;
+}
+
+.product-cards {
+	width: 700px;
+	font-size: 0;
+}
+
+.product-cards .item:nth-child(3n) {
+	margin-right: 0;
 }
 
 .perfo-info {
@@ -294,8 +315,6 @@ body {
 	float: right;
 	width: 140px;
 }
-
-
 
 
 
