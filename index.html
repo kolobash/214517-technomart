@@ -3,14 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
   	<header class="main-header">
   		<div class="top-line">
   			<div class="container clearfix">
-  				<div class="logo">
-  					<a href="index.html">Техномарт</a>
+  				<div class="logo-container">
+  					<a class="logo" href="index.html">Техномарт</a>
   				</div>
   				<div class="search">
   				<form action="#" method="get">
@@ -19,9 +22,9 @@
   				</form>
   				</div>
   				<div class="order-block">
-  					<a href="#">Закладки: <span></span></a>
-  					<a href="#">Корзина: <span></span></a>
-  					<a href="#">Оформить заказ</a>
+  					<a class="order bookmarks" href="#">Закладки: <span>0</span></a>
+  					<a class="order basket" href="#">Корзина: <span>0</span></a>
+  					<a class="order checkout" href="#">Оформить заказ</a>
   				</div>
   			</div>
   		</div>

@@ -1,8 +1,10 @@
 html,
 body {
-	min-width: 1200px;
-	padding: 0;
-	margin: 0;
+	min-width: 960px;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: "Cuprum", "Arial", sans-serif;
 }
 
 .clearfix::after {
@@ -19,9 +21,37 @@ body {
 
 /*HEADER*/
 
-.logo {
+.logo-container {
 	float: left;
 	width: 220px;
+}
+
+.top-line {
+	min-height: 50px;
+	background-color: #293449;
+}
+
+.logo {
+	display: block;
+	padding: 13px 55px;
+	font-size: 24px;
+	line-height: 24px;
+	font-family: "Cuprum", "Arial", sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: #ee3643;
+	box-shadow: 0 5px 0 0 #b52933;
+}
+
+.logo:hover {
+	background-color: #ca2c37;
+	box-shadow: 0 5px 0 0 #9a212a;
+}
+
+.logo:active {
+	background-color: #ba2732;
+	box-shadow: 0 5px 0 0 #8e1e26;
 }
 
 .search {
@@ -31,12 +61,54 @@ body {
 
 .order-block {
 	float: right;
-	width: 460px;
+	width: 450px;
+	font-size: 0;
+}
+
+.order {
+	position: relative;
+	display: inline-block;
+	padding: 15px 20px;
+	font-size: 17px;
+	line-height: 20px;
+	font-family: "Cuprum", "Arial", sans-serif;
+	vertical-align: top;
+	text-decoration: none;
+	color: #fff;
+}
+
+.bookmarks,
+.basket {
+	padding-left: 50px;
+}
+
+.bookmarks::before {
+	content: "";
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	width: 14px;
+	height: 16px;
+	background: red url("img/sprite.png") no-repeat;
+	background-position: -5px -31px;
+}
+
+.checkout {
+	background-color: #63a63e;
 }
 
 .info {
 	float: left;
-	width: 300px;
+	width: 257px;
+	outline: 1px solid red;
+	margin-top: 0;
+	padding-left: 53px;
+	padding-top: 45px;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 23px;
+ 	font-family: "Cuprum", "Arial", sans-serif;
+ 	color: #ee3643;
 }
 
 .contacts {
@@ -47,10 +119,6 @@ body {
 .user-block {
 	float: right;
 	width: 300px;
-}
-
-.bottom-line {
-	padding-top: 45px;
 }
 
 .main-nav {
@@ -315,12 +383,6 @@ body {
 	float: right;
 	width: 140px;
 }
-
-
-
-
-
-
 
 
 
