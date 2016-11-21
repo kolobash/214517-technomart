@@ -12,7 +12,7 @@
       <div class="top-line">
         <div class="container clearfix">
           <div class="logo-container">
-            <a class="logo">Техномарт</a>
+            <a class="logo" href="index.html">Техномарт</a>
           </div>
           <div class="search">
           <form class="search-form" action="#" method="get">
@@ -22,7 +22,7 @@
           </div>
           <div class="order-block">
             <a class="order bookmarks" href="#">Закладки: <span>0</span></a>
-            <a class="order basket" href="#">Корзина: <span>0</span></a>
+            <a class="order basket" href="#">Корзина: <span>10</span></a>
             <a class="order checkout" href="#">Оформить заказ</a>
           </div>
         </div>
@@ -39,13 +39,17 @@
               <span class="adr">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</span>
           </div>
           <div class="user-block">
-            <a class="user-actions login" href="#">Войти</a>
-            <a class="user-actions registrations" href="#">Регистрация</a>
+            <div class="user">
+              <a class="user-name" href="#">Равшан Джамшутович</a>
+              <a class="logout" href="#"></a>
+            </div>
+            <a class="cabinet orders" href="#">Мои заказы</a>
+            <a class="cabinet private-office" href="#">Личный кабинет</a>
           </div>
           <nav class="main-navigation">
            <ul>
             <li>
-             <a href="#">Главная</a>
+             <a href="index.html">Главная</a>
             </li>
             <li>
              <a href="#">Компания</a>
@@ -72,35 +76,32 @@
     </header>
     <main class="main-content">
       <div class="container clearfix">
-        <ul class="bread-crumbs">
-          <li>
-            <a href="#">icon</a>
-          </li>
-          <li>
+        <div class="bread-crumbs clearfix">
+            <a class="icon-home" href="index.html"></a>
             <a href="#">Каталог</a>
-          </li>
-          <li>
             <a href="#">Инструмент</a>
-          </li>
-          <li>
             <a>Перфораторы</a>
-          </li>
-        </ul>
+        </div>
         <h1 class="catalog-title">Перфораторы</h1>
         <div class="filter">
-          <span>Фильтр:</span>
+          <span class="filter-title">Фильтр:</span>
           <form action="#" method="get">
-            <div class="price-filter">
-              <div class="range">
-                <input type="range">
+            <div class="range-filter">
+              <span class="range-filter-title">Цена:</span>
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="toggle toggle-min"></div>
+                <div class="toggle toggle-max"></div>
               </div>
-              <div class="result">
-                <input type="text" value="0">
-                <input type="text" value="30000">
+              <div class="price-controls">
+                <label class="min-price"><input name="min-price" type="text" value="0"></label>
+                <label class="max-price"><input name="max-price" type="text" value="30000"></label>
               </div>
             </div>
             <div class="producer-filter">
-              <span>Производители:</span>
+              <span class="producer-filter-title">Производители:</span>
               <div class="producers">       
                 <ul>
                   <li>
@@ -120,18 +121,18 @@
                     <label for="dewalt">DEWALT</label>
                   </li>
                   <li>
-                    <input type="checkbox" name="hitachi" id="hitachi">
+                    <input type="checkbox" name="hitachi" id="hitachi" disabled>
                     <label for="hitachi">HITACHI</label>
                   </li>
                 </ul>
               </div>
             </div>  
             <div class="power-filter">
-              <span>Питание:</span>
+              <span class="power-filter-title">Питание:</span>
               <div class="power">
                 <ul>
                   <li>
-                    <input type="radio" name="power" value="battery" id="battery">
+                    <input type="radio" name="power" value="battery" id="battery" checked>
                     <label for="battery">Аккумуляторные</label>
                   </li>
                   <li>
@@ -141,18 +142,18 @@
                 </ul>
               </div>
             </div>
-            <button type="submit">Показать</button>
+            <button class="filter-btn" type="submit">Показать</button>
           </form>
         </div>
         <div class="catalog">
           <div class="sorting">
-            Сортировка:
-            <a href="#">По цене</a>
-            <a href="#">По типу</a>
-            <a href="#">По функционалу</a>
+            <span class="sorting-title">Сортировка:</span>
+            <a class="sorting-name active" href="#">По цене</a>
+            <a class="sorting-name" href="#">По типу</a>
+            <a class="sorting-name" href="#">По функционалу</a>
               <div class="arrow-choise">
-                <a href="#">+</a>
-                <a href="#">-</a>
+                <a class="arrow arrow-up actual" href="#"></a>
+                <a class="arrow arrow-down" href="#"></a>
               </div>  
           </div>
           <div class="catalog-items">
@@ -217,7 +218,7 @@
               </div>
             </article>
             <article class="item">
-              <div class="flag">новинка</div>
+              <div class="flag flag-new">новинка</div>
               <div class="actions">
                 <a href="#" class="buy">Купить</a>
                 <a href="#" class="bookmark">В закладки</a>
@@ -232,7 +233,7 @@
               </div>
             </article>
             <article class="item">
-              <div class="flag flag-new">новинка</div>
+              <div class="flag">новинка</div>
               <div class="actions">
                 <a href="#" class="buy">Купить</a>
                 <a href="#" class="bookmark">В закладки</a>
@@ -247,7 +248,7 @@
               </div>
             </article>
             <article class="item">
-              <div class="flag">новинка</div>
+              <div class="flag flag-new">новинка</div>
               <div class="actions">
                 <a href="#" class="buy">Купить</a>
                 <a href="#" class="bookmark">В закладки</a>
@@ -277,7 +278,7 @@
               </div>
             </article>
             <article class="item">
-              <div class="flag flag-new">новинка</div>
+              <div class="flag">новинка</div>
               <div class="actions">
                 <a href="#" class="buy">Купить</a>
                 <a href="#" class="bookmark">В закладки</a>
@@ -293,10 +294,10 @@
             </article>
           </div>
           <div class="paginator">
-            <a href="#">1</a>
+            <a class="instant" href="#">1</a>
             <a href="#">2</a>
             <a href="#">3</a>
-            <a href="#">Следующая</a>
+            <a class="next" href="#">Следующая</a>
           </div>
         </div>
       </div>
@@ -304,16 +305,16 @@
       <aside class="perfo-info">
         <div class="container">
           <h2>Пара слов о перфораторах</h2>
-          <p>Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
-             Существует электромеханические и пневматические перфораторы. Современны модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В<br>
-             ассортиментном ряду есть выбор "трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+          <p>Перфоратор &mdash; универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
+             Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В
+             ассортиментном ряду есть выбор &#171;трехрежимников&#187;: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
         </div>
       </aside>
     <footer class="main-footer">
       <div class="top-footer">
         <div class="container clearfix">
           <div class="logo-container">
-            <a class="logo footer-logo" href="#">ТЕХНОМАРТ</a>
+            <a class="logo footer-logo" href="index.html">ТЕХНОМАРТ</a>
           </div>
           <nav class="support-navigation">
             <ul>
@@ -382,5 +383,15 @@
         </div>
       </div>
     </footer>
+    <div class="pop-up">
+      <button class="pop-up-close" type="button" title="Закрыть">Закрыть</button>
+      <div class="item-added">
+        <span>Товар добавлен в корзину!</span>
+      </div>
+      <div class="shopping-continued">
+        <a class="btn checkout-btn" href="#">Оформить заказ</a>
+        <button class="btn continue-btn" type="button">Продолжить покупки</button>
+      </div>
+    </div>
   </body>
 </html>
