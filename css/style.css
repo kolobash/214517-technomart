@@ -129,12 +129,12 @@ img {
 	font-family: "Cuprum", "Arial", sans-serif
 }
 
-.search-field::-webkit-input-placeholder {
-  color: #ffffff;
+.search input::-webkit-input-placeholder {
+	color: #fff;
 }
 
-input[type="search"]::-moz-input-placeholder {
-  color: #ffffff;
+.search input::-moz-placeholder {
+	color: #fff;
 }
 
 .search-form:hover {
@@ -875,10 +875,8 @@ input[type="search"]:focus + .btn-search::before {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-height: 175px;
-  width: 100%;
   width: 218px;
-  min-height: 168px;
+  height: 168px;
   resize: vertical;
 }
 
@@ -954,6 +952,8 @@ input[type="search"]:focus + .btn-search::before {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+  width: 100%;
+	min-height: 143px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -961,10 +961,6 @@ input[type="search"]:focus + .btn-search::before {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  resize: vertical;
-  width: 100%;
-  width: 218px;
-	min-height: 143px;
   resize: vertical;
 }
 
@@ -1935,6 +1931,13 @@ input[type="radio"]:disabled ~ label::after {
 	font-size: 13px;
 	line-height: 18px;
 	font-family: "PT Sans", "Arial", sans-serif;
+}
+
+.modal-content::-webkit-input-placeholder {
+	color: #999999;
+}
+
+.modal-content:-moz-placeholder {
 	color: #999999;
 }
 
