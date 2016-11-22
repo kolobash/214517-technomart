@@ -1041,6 +1041,7 @@ input[type="search"]:focus + .btn-search::before {
 	background-color: #32425c;
 	border-top: 1px solid #405069;
 	border-bottom: 1px solid #293449;
+	cursor: pointer;
 }
 
 .service-name li:hover {
@@ -1051,6 +1052,10 @@ input[type="search"]:focus + .btn-search::before {
 	color: #32425c;
 	background-color: #ffffff;
 	border-top-color: #ffffff;
+}
+
+.service-name .current:hover {
+	background-color: #ffffff;
 }
 
 .service-description {
