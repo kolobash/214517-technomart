@@ -315,8 +315,9 @@
   					<p>Вы можете забрать товар сами,<br>
   					   заехав в наш офис:</p>
   					<div class="location">
-              <a href="https://yandex.ua/maps/?lang=ru&ncrnd=230">
-  						  <img src="img/map.jpg" width="300" height="158" alt="map">
+              <a href="#">
+  						  <img class="modal-map" src="img/map.jpg" width="300" height="158" alt="map" title="Можно кликать">
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7994.396461306528!2d30.323083!3d59.938794!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2sua!4v1479891798336" width="300" height="158" frameborder="0" style="border:0" allowfullscreen></iframe> -->
               </a>
   					</div>
   					<a class="btn write-us" href="#">Заблудились? Напишите нам!</a>
@@ -397,6 +398,20 @@
   			</div>
   		</div>
   	</footer>
+    <div class="pop-up">
+      <button class="pop-up-close" type="button" title="Закрыть">Закрыть</button>
+      <div class="item-added">
+        <span>Товар добавлен в корзину!</span>
+      </div>
+      <div class="shopping-continued">
+        <a class="btn checkout-btn" href="#">Оформить заказ</a>
+        <button class="btn continue-btn" type="button">Продолжить покупки</button>
+      </div>
+    </div>
+    <div class="map">
+      <button class="map-close" type="button" title="Закрыть">Закрыть</button>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7994.396461306528!2d30.323083!3d59.938794!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2sua!4v1479891798336" width="940" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
     <div class="modal-content">
       <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
         <form action="#" method="get">
@@ -416,16 +431,6 @@
             <button class="btn modal-content-btn" type="submit">Отправить</button>
           </div>
         </form>
-    </div>
-    <div class="pop-up">
-      <button class="pop-up-close" type="button" title="Закрыть">Закрыть</button>
-      <div class="item-added">
-        <span>Товар добавлен в корзину!</span>
-      </div>
-      <div class="shopping-continued">
-        <a class="btn checkout-btn" href="#">Оформить заказ</a>
-        <button class="btn continue-btn" type="button">Продолжить покупки</button>
-      </div>
     </div>
     <script src="js/script.js"></script>
   </body>
