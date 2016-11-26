@@ -7,8 +7,9 @@
     <title>HTML Academy: Техномарт</title>
     <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
     <header class="main-header">
         <div class="top-line">
@@ -73,18 +74,15 @@
     <main class="main-content">
         <div class="container">
             <section class="profit clearfix">
-                <div class="promo material">
-                    <div class="flag flag-new">Новинка</div>
+                <div class="promo material flag">
                     <h2 class="promo-title">Материалы</h2>
                     <a class="btn promo-btn" href="#">На любой вкус</a>
                 </div>
                 <div class="promo tool">
-                    <div class="flag">Новинка</div>
                     <h2 class="promo-title">Инструмент</h2>
                     <a class="btn promo-btn" href="#">На все случаи</a>
                 </div>
                 <div class="promo tech">
-                    <div class="flag">Новинка</div>
                     <h2 class="promo-title">Техника</h2>
                     <a class="btn promo-btn" href="#">Для стройки</a>
                 </div>
@@ -97,13 +95,13 @@
                     </div>
                     <div class="slides">
                         <div class="slide">
-                                <h2 class="slide-title">Перфораторы</h2>
-                                <p class="slide-subtitle">Настроящие мужские игрушки</p>
+                            <h2 class="slide-title">Перфораторы</h2>
+                            <p class="slide-subtitle">Настроящие мужские игрушки</p>
                             <a class="btn slide-btn" href="#">Открыть каталог</a>
                         </div>
                         <div class="slide">
-                                <h2 class="slide-title">Дрели</h2>
-                                <p class="slide-subtitle">Соседям на радость</p>
+                            <h2 class="slide-title">Дрели</h2>
+                            <p class="slide-subtitle">Соседям на радость</p>
                             <a class="btn slide-btn" href="#">Открыть каталог</a>
                         </div>
                         <button class="slider-nav slide-prev" type="button"></button>
@@ -111,12 +109,10 @@
                     </div>
                 </div>
                 <div class="promo discount">
-                    <div class="flag">Новинка</div>
                     <h2 class="promo-title">Скидки 50%</h2>
                     <a class="btn promo-btn" href="#">На 350 товаров</a>
                 </div>
                 <div class="promo supply">
-                    <div class="flag">Новинка</div>
                     <h2 class="promo-title">Доставка</h2>
                     <a class="btn promo-btn" href="#">Бесплатно</a>
                 </div>
@@ -128,14 +124,12 @@
                 </header>
                 <div class="item-cards">
                     <article class="item">
-                    <!-- А МОЖНО ФЛАЖОК РЕАЛИЗОВАТЬ И КАК У МЕНЯ -->
-                        <div class="flag">новинка</div>
                         <div class="actions">
                             <a href="#" class="buy">Купить</a>
                             <a href="#" class="bookmark">В закладки</a>
                         </div>
                         <div class="product-image">
-                            <img src="img/bfg-9000.jpg" width="184" height="164" alt="bfg-9000">
+                            <img src="img/bfg-9000.jpg" width="218" height="169" alt="bfg-9000">
                         </div>
                         <div class="product-info">
                             <div class="title">Перфоратор BOSCH BFG 9000</div>
@@ -144,13 +138,12 @@
                         </div>
                     </article>
                     <article class="item">
-                        <div class="flag">новинка</div>
                         <div class="actions">
                             <a href="#" class="buy">Купить</a>
                             <a href="#" class="bookmark">В закладки</a>
                         </div>
                         <div class="product-image">
-                            <img src="img/bfg-3000.jpg" width="127" height="112" alt="bfg-3000">
+                            <img src="img/bfg-3000.jpg" width="218" height="169" alt="bfg-3000">
                         </div>
                         <div class="product-info">
                             <div class="title">Перфоратор BOSCH BFG 3000</div>
@@ -159,13 +152,12 @@
                         </div>
                     </article>
                     <article class="item">
-                        <div class="flag">новинка</div>
                         <div class="actions">
                             <a href="#" class="buy">Купить</a>
                             <a href="#" class="bookmark">В закладки</a>
                         </div>
                         <div class="product-image">
-                            <img src="img/bfg-6000.jpg" width="144" height="128" alt="bfg-6000">
+                            <img src="img/bfg-6000.jpg" width="218" height="169" alt="bfg-6000">
                         </div>
                         <div class="product-info">
                             <div class="title">Перфоратор BOSCH BFG 6000</div>
@@ -173,14 +165,13 @@
                             <div class="price">23500 Р.</div>
                         </div>
                     </article>
-                    <article class="item">
-                        <div class="flag flag-new">новинка</div>
+                    <article class="item flag">
                         <div class="actions">
                             <a href="#" class="buy">Купить</a>
                             <a href="#" class="bookmark">В закладки</a>
                         </div>
                         <div class="product-image">
-                            <img src="img/bfg-2000.jpg" width="127" height="112" alt="bfg-2000">
+                            <img src="img/bfg-2000.jpg" width="218" height="169" alt="bfg-2000">
                         </div>
                         <div class="product-info">
                             <div class="title">Перфоратор BOSCH BFG 2000</div>
@@ -196,45 +187,44 @@
                     <a class="btn popular-btn" href="#">Все производители</a>
                 </header>
                 <div class="producer-cards">
-                <!-- ЭТО НЕ ЛИШНИЙ ЭЛЕМЕНТ. ДЕЛАТЬ СЕТКУ СТРОЧНЫМИ ТЕГАМИ НЕЛЬЗЯ -->
                     <div class="producer-name">
                         <a href="#">
-                            <img src="img/bosch.png" width="126" height="37" alt="BOSCH">
+                            <img src="img/bosch.png" width="218" height="143" alt="BOSCH">
                         </a>
                     </div>
                     <div class="producer-name">
                         <a href="#">
-                            <img src="img/makita.png" width="127" height="40" alt="MAKITA">
+                            <img src="img/makita.png" width="218" height="143" alt="MAKITA">
                         </a>
                     </div>
                     <div class="producer-name">
                         <a href="#">
-                            <img src="img/dewalt.png" width="146" height="44" alt="DeWalt">
+                            <img src="img/dewalt.png" width="218" height="143" alt="DeWalt">
                         </a>
                     </div>
                     <div class="producer-name">
                         <a href="#">
-                            <img src="img/interscall.png" width="200" height="88" alt="Interscall">
+                            <img src="img/interscall.png" width="218" height="143" alt="Interscall">
                         </a>
                     </div>
                     <div class="producer-name">
                         <a href="#">
-                            <img src="img/hitachi.png" width="169" height="31" alt="HITACHI">
+                            <img src="img/hitachi.png" width="218" height="143" alt="HITACHI">
                         </a>
                     </div>
                     <div class="producer-name">
                         <a href="#">
-                            <img src="img/lg.png" width="121" height="73" alt="LG">
+                            <img src="img/lg.png" width="218" height="143" alt="LG">
                         </a>
                     </div>
                     <div class="producer-name">
                         <a href="#">
-                            <img src="img/aeg.png" width="151" height="96" alt="AEG">
+                            <img src="img/aeg.png" width="218" height="143" alt="AEG">
                         </a>
                     </div>
                     <div class="producer-name">
                         <a href="#">
-                            <img src="img/metabo.png" width="204" height="69" alt="Metabo">
+                            <img src="img/metabo.png" width="218" height="143" alt="Metabo">
                         </a>
                     </div>
                 </div>
@@ -246,9 +236,6 @@
                 <p class="description">Хороший интернет-магазин отличается от плохого не только ценами!</p>
                 <p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
             </header>
-            <!-- В САМОМ КРИТЕРИИ НАПИСАНО "Оживление слайдера и табов не обязательно."
-            ТАКЖЕ, ОЖИВЛЕНИЕ СЛАЙДЕРА С ТАБАМИ НЕ ЯВЛЯЕТСЯ ОБЯЗАТЕЛЬНЫМ(с)КУРАТОР
-                   http://prnt.sc/db791s --> -->
             <div class="container clearfix">
                 <div class="service-name">
                     <ul>
@@ -266,20 +253,15 @@
                 <div class="service-description">
                     <div class="delivery">
                         <h2 class="description-title">Доставка</h2>
-                        <p class="description">Мы с удовольствием доставим ваш товар прямо<br>
-                <!--ВНИМАНИЮ ПРОВЕРЯЮЩЕГО! ТЕГИ <br> РАССТАВЛЕНЫ В ТЕХ МЕСТАХ, ГДЕ РАЗРЕШАЕТ АКАДЕМИЯ
-                  СМОТРИМ СЮДА https://up.htmlacademy.ru/htmlcss/15/examples_br
-                  ТАКЖЕ, ОЖИВЛЕНИЕ СЛАЙДЕРА С ТАБАМИ НЕ ЯВЛЯЕТСЯ ОБЯЗАТЕЛЬНЫМ(С)КУРАТОР
-                   http://prnt.sc/db791s -->
-                           к вашему подъезду совершенно бесплатно!</p>
-                        <p class="description">Ведь мы неплохо заработаем,<br>
-                           поднимая его на ваш на этаж! </p>
+                        <p class="description">Мы с удовольствием доставим ваш товар прямо
+                            <br> к вашему подъезду совершенно бесплатно!</p>
+                        <p class="description">Ведь мы неплохо заработаем,
+                            <br> поднимая его на ваш на этаж! </p>
                     </div>
                     <div class="guarantee">
                         <h2 class="description-title">Гарантия</h2>
-                        <!-- СМОТРИМ СЮДА https://up.htmlacademy.ru/htmlcss/15/examples_br -->
-                        <p class="description">Если купленный у нас товар поломается или заискрит,<br>
-                            а также в случае пожара, спровоцированного его возгоранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.</p>
+                        <p class="description">Если купленный у нас товар поломается или заискрит,
+                            <br> а также в случае пожара, спровоцированного его возгоранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.</p>
                         <p class="description">Дом уж восстановите как-нибудь сами.</p>
                     </div>
                     <div class="credit">
@@ -314,11 +296,11 @@
                     <h2 class="about-title">Контакты</h2>
                     <p>Вы можете забрать товар сами, заехав в наш офис:</p>
                     <div class="location">
-                        <a href="#">
+                        <a href="https://www.google.com.ua/maps/place/Большая+Конюшенная+ул.,+19,+Санкт-Петербург,+Россия,+191186/@59.9387942,30.3208946,17z/data=!3m1!4b1!4m5!3m4!1s0x4696310fca5ba729:0xea9c53d4493c879f!8m2!3d59.9387942!4d30.3230833?hl=ru">
                             <img class="modal-map" src="img/map.jpg" width="300" height="158" alt="map" title="Можно кликать">
                         </a>
                     </div>
-                    <a class="btn write-us" href="https://tehnomart.ru">Заблудились? Напишите нам!</a>
+                    <a class="btn write-us" href="form.html">Заблудились? Напишите нам!</a>
                 </div>
             </div>
         </section>
